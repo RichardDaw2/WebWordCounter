@@ -10,7 +10,7 @@ namespace WebWordCounter
 {
     public class Program
     {
-        public static XXXXXXXXXX Task Main()
+        public static async Task Main()
         {
             string url = null;
             string w = null;
@@ -26,14 +26,14 @@ namespace WebWordCounter
                 if (String.Equals(url.Trim().ToUpper(), "EXIT")) break;
                 if (!url.StartsWith("http")) continue;
 
-                Task<string[]> task1 = Task.Run(() => CreateWordArray(url));
+                 Task<string[]> task1 = await Task.Run( () => CreateWordArray(url));
 
                 Console.WriteLine("Escribe la palabra:");
                 w = Console.ReadLine();
 
-                string[] words = task1.XXXXXXXXXX;
+                string[] words = task1.Result;
 
-                XXXXXXXXXX Task.Run(() => {
+                await Task.Run(() => {
                     n = GetCountForWord(words, w);
                 });
 
@@ -52,7 +52,7 @@ namespace WebWordCounter
             return findWord.Count();
         }
 
-        static string[] CreateWordArray(string uri)
+        static string[]  CreateWordArray(string uri)
         {
             string s = new WebClient().DownloadString(uri);
             return s.Split(
