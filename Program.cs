@@ -26,7 +26,7 @@ namespace WebWordCounter
                 if (String.Equals(url.Trim().ToUpper(), "EXIT")) break;
                 if (!url.StartsWith("http")) continue;
 
-                Task<string[]> task1 = Task.Run(() => CreateWordArray(url));
+                 Task<string[]> task1 =  Task.Run( () => CreateWordArray(url));
 
                 Console.WriteLine("Escribe la palabra:");
                 w = Console.ReadLine();
@@ -52,7 +52,7 @@ namespace WebWordCounter
             return findWord.Count();
         }
 
-        static string[] CreateWordArray(string uri)
+        static string[]  CreateWordArray(string uri)
         {
             string s = new WebClient().DownloadString(uri);
             return s.Split(
