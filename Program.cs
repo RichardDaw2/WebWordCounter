@@ -26,7 +26,7 @@ namespace WebWordCounter
                 if (String.Equals(url.Trim().ToUpper(), "EXIT")) break;
                 if (!url.StartsWith("http")) continue;
 
-                 Task<string[]> task1 = await Task.Run( () => CreateWordArray(url));
+                 Task<string[]> task1 =  Task.Run( () => CreateWordArray(url));
 
                 Console.WriteLine("Escribe la palabra:");
                 w = Console.ReadLine();
