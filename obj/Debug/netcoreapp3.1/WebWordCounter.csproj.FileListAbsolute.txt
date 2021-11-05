@@ -1,0 +1,14 @@
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.exe
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.deps.json
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.runtimeconfig.json
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.runtimeconfig.dev.json
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.dll
+C:\Users\Usuario\Source\Repos\WebWordCounter\bin\Debug\netcoreapp3.1\WebWordCounter.pdb
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.csproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.AssemblyInfoInputs.cache
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.AssemblyInfo.cs
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.dll
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.pdb
+C:\Users\Usuario\Source\Repos\WebWordCounter\obj\Debug\netcoreapp3.1\WebWordCounter.genruntimeconfig.cache
